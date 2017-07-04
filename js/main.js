@@ -53,7 +53,7 @@ function resetFields() {
     numberOne.value = "";
     numberTwo.value = "";
     result.innerText = "";
-    operator.value = "";
+    operator = "";
 }
 
 function getDetails() {
