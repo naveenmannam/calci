@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Calculator</a>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="text-center">
+            <!-- <label for="display">Addition</label> -->
+            <div class="form-group">
+                <label for="numOne">
+                    <input class="form-control" type="text" id="numOne" placeholder="Number One">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="numTwo">
+                    <input class="form-control" type="text" id="numTwo" placeholder="Number Two">
+                </label>
+            </div>
+            <br>
+            <br>
+            <button class="btn btn-success" id="plus" value="+">&nbsp;+&nbsp;</button>&nbsp;
+            <button class="btn btn-success" id="minu" value="-">&nbsp;-&nbsp;</button>&nbsp;
+            <button class="btn btn-success" id="divi" value="/">&nbsp;/&nbsp;</button>&nbsp;
+            <button class="btn btn-success" id="mult" value="*">&nbsp;*&nbsp;</button>&nbsp;
+            <br>
+            <br>
+            <br>
+            <button id="enter" class="btn btn-danger">Submit</button>
+            <button id="reset" class="btn btn-danger">Reset</button>
+            <br>
+            <br>
+            <label for="result" id="result"></label>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
